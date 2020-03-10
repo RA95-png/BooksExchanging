@@ -3916,6 +3916,7 @@ ol {
   .imgBook{
 	  cursor: pointer;
 	  padding: 5px;
+	  width: 40%;
   }
   #fileInput{
 	display: none;
@@ -4321,6 +4322,9 @@ ol {
 	.checkout-content input {
 		margin-top: 50px;
 	}
+}
+.fileInput{
+	display: none;
 }
 
 /* Small Device: 320px */
