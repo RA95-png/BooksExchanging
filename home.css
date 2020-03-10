@@ -11,10 +11,16 @@ li:hover > ul {
 }
 li:hover li { float: none; }
 
-ul ul ,ul ul ul  {
+ul ul , ul ul ul{
   left: 100%;
   top: 0;
 }  
 .col-lg-4 {
 margin-top: 20px;
+}
+.list {
+    left: 0;
+}
+.a {
+    margin-left: auto;
 }

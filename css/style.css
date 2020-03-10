@@ -481,8 +481,8 @@ ol {
 	font-size: 16px;
 	color: #ffffff;
 	position: absolute;
-	right: -3px;
-	top: -1px;
+	right: 40px;
+	top: -39px;
 	border: 1px solid #e7ab3c;
 	background: #e7ab3c;
 	padding: 12px 16px 12px;
@@ -3891,7 +3891,7 @@ ol {
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
 	.inner-header .advanced-search .input-group button {
-		right: -14px;
+		right: -196px;
 	}
 	.product-item .pi-pic ul li a {
 		padding: 16px 12px 12px 11px;
@@ -3935,7 +3935,7 @@ ol {
 		padding: 18px 39px;
 	}
 	.inner-header .advanced-search .input-group button {
-		right: -7px;
+		right: -191px;
 	}
 	.product-shop .product-item .pi-pic ul li a {
 		padding: 16px 12px 12px 11px;
