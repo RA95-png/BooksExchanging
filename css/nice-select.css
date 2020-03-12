@@ -24,7 +24,7 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-   white-space: nowrap; 
+    white-space: nowrap;  
   width: 110%;
  }
   .nice-select:hover {
