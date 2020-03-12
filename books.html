@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="css/liveSearch.css" type="text/css">
 </head>
 
 <body>
@@ -46,13 +47,13 @@
                     </div>
                 </div>
                 <div class="ht-right">
-                    <a href="#" class="login-panel"><i class="fa fa-user"></i>Login</a>
+                    <a href="./login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
                     <div class="lan-selector">
                         <select class="language_drop" name="countries" id="countries" style="width:300px;">
                             <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">English</option>
-                            <option value='yu' data-image="img/jordan (1).png" data-imagecss="flag yu"
-                                data-title="Bangladesh">Arabic</option>
+                            data-title="English">English</option>
+                        <option value='yu' data-image="img/jordan (1).png" data-imagecss="flag yu"
+                            data-title="Bangladesh">Arabic</option>
                         </select>
                     </div>
                     <div class="top-social">
@@ -78,8 +79,8 @@
                         <div class="advanced-search">
                             <form action="#" class="input-group">
                                 <button type="button"><i class="ti-search"></i></button>
-                            <input type="text" placeholder="Search   |    What do you need?">
-                                     </form>
+                                <input type="text" placeholder="Search   |    What do you need?">
+                            </form>
                         </div>
                     </div>
                     <div class="col-lg-3 text-right col-md-3">
@@ -122,8 +123,8 @@
                 </div>
                 <nav class="nav-menu mobile-menu">
                     <ul>
-                      
-                        <li ><a href="./index.html">Home</a></li>
+
+                        <li><a href="./index.html">Home</a></li>
                         <li class="active"><a href="./books.html">Books</a></li>
                         <li><a href="./addBook.html">Add Book</a></li>
                         <li><a href="#footer-section">About Us</a></li>
@@ -159,9 +160,9 @@
 
     <!-- Product Shop Section Begin -->
     <section class="product-shop spad ">
-        
-                <div class="container">
-                <div class="row">
+
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-1"> </div>
                 <div class="col-lg-10 ">
                     <div class="product-show-option">
@@ -169,43 +170,83 @@
                             <div class="col-lg-7 col-md-7">
                                 <div class="select-option">
                                     <!-- unvesity -->
-                                    <div class= "nav-item"> 
-                                    <div class="nav-depart">
-                   <div class="depart-btn styleDepart nice-select">
-                        <i class="ti-menu"></i>
-                        <span class="current">Universities</span>
-                        <ul class="depart-hover">
-                            <li class="active" style="color: #212529;"><a href="#">Universities</a></li>
-                             <li><a href="#">Jordan University of Science and Tochnology</a>
-                                <ul >
-                                <li><a href="#">Faculty of Sharia</a></li>
-                                <li><a href="#">Faculty of Low</a></li>
-                                <li><a href="#">Faculty of Science</a>
-                                <ul>
-                                    <li><a href="#">Mathematics</a></li>
-                                    <li><a href="#">Physics</a></li>
-                                    <li><a href="#">Chemistry</a></li>
-                                    <li><a href="#">Biological Sciences</a></li>
-                                    <li><a href="#">Geology</a></li></ul>
-                                </li>
-                                </ul>
-                             </li>
-                            <li><a href="#">Al al-Bayt University</a></li>
-                            <li><a href="#">The University of Jordan</a></li>
-                            <li><a href="#">Yarmouk University</a></li>
-                            <li><a href="#">The Hashemite University</a></li>
-                            <li><a href="#">Middle East University</a></li>
-                            <li><a href="#">Isra University</a></li>
-                            <li><a href="#">Al-Balqa Applied University</a></li>
-                        </ul>
-                    </div> </div></div>
+                                    <div class="nav-item">
+                                        <div class="nav-depart">
+                                            <div class="depart-btn styleDepart nice-select">
+                                                <i class="ti-menu"></i>
+                                                <span class="current">Universities</span>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                <ul class="depart-hover" id="myUL" >
+                                                    <input type="text" id="myInput" onkeyup="myFunction()"
+                                                        placeholder="Search For University.." title="Type in a name">
+                                                    <li><a href="#">Jordan University of Science and Tochnology</a>
+                                                        <ul>
+                                                            <li><a href="#">Faculty of Sharia</a></li>
+                                                            <li><a href="#">Faculty of Low</a></li>
+                                                            <li><a href="#">Faculty of Science</a>
+                                                                <ul>
+                                                                    <li><a href="#">Mathematics</a></li>
+                                                                    <li><a href="#">Physics</a></li>
+                                                                    <li><a href="#">Chemistry</a></li>
+                                                                    <li><a href="#">Biological Sciences</a></li>
+                                                                    <li><a href="#">Geology</a></li>
+                                                                </ul>
+
+                                                        </ul>
+                                                    
+
+                                                            <li><a href="#">Al al-Bayt University</a></li>
+                                                            <li><a href="#">The University of Jordan</a></li>
+                                                            <li><a href="#">Yarmouk University</a></li>
+                                                            <li><a href="#">The Hashemite University</a></li>
+                                                            <li><a href="#">Middle East University</a></li>
+                                                            <li><a href="#">Isra University</a></li>
+                                                            <li><a href="#">Al-Balqa Applied University</a></li>
+                                                            <li><a href="#"> Al Hussein Bin Talal University</a></li>
+
+                                                            <li><a href="#">Mutah</a></li>
+                                                          
+                                                            <li><a href="#">Tafila Technical University</a></li>
+                                                            <li><a href="#">German Jordanian University</a></li>
+                                                            <li><a href="#">Al-Ahliyya Amman University</a></li>
+                                                            <li><a href="#">Al-Zaytoonah University of Jordan</a></li>
+
+                                                            <li><a href="#">Philadelphia University</a></li>
+                                                            <li><a href="#">Princess Sumaya University for
+                                                                    Technology</a></li>
+                                                            <li><a href="#">University of Petra</a></li>
+                                                            <li><a href="#">Applied Science Private University</a></li>
+                                                            <li><a href="#">Jerash University</a></li>
+                                                            <li><a href="#">Zarqa University</a></li>
+
+                                                            <li><a href="#">Irbid National University</a></li>
+                                                            <li><a href="#">University of Petra</a></li>
+                                                            <li><a href="#">Ajloun National Private University</a></li>
+                                                            <li><a href="#">Amman Arab University</a></li>
+                                                            <li><a href="#">American University of Madaba</a></li>
+
+                                                            <li><a href="#">Jadara University</a></li>
+                                                            <li><a href="#">Middle East University</a></li>
+                                                            <li><a href="#">University of Petra</a></li>
+                                                            <li><a href="#">Aqaba University of Technology</a></li>
+                                                            <li><a href="#">Amman Arab University</a></li>
+                                                            <li><a href="#">Al Hussein Technical University</a></li>
+                                                        </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                     <!--end unv.-->
-                                    <select class="sorting">
+
+                                    <!-- <select class="sorting">
                                         <option value="">Default Sorting</option>
                                     </select>
                                     <select class="p-show">
                                         <option value="">Show:</option>
-                                    </select>
+                                    </select> -->
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-5 text-right">
@@ -218,230 +259,81 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
-                                        <div class="sale pp-sale">Sale</div>
+                                        <img src="img/book.jpeg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
                                         <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                            
+                                            <li class="quick-view"><a href="./product.html">+ More Details</a></li>
+                                            
                                         </ul>
                                     </div>
                                     <div class="pi-text">
-                                        <div class="catagory-name">Towel</div>
-                                        <a href="#">
-                                            <h5>Pure Pineapple</h5>
+                                        <div class="catagory-name">Department</div>
+                                        <a href="./product.html">
+                                            <h5>Book Name</h5>
                                         </a>
                                         <div class="product-price">
-                                            $14.00
-                                            <span>$35.00</span>
+                                            Price
+                                           
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                       
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
+                                        <img src="img/book.jpeg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
                                         <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                            
+                                            <li class="quick-view"><a href="./product.html">+ More Details</a></li>
+                                            
                                         </ul>
                                     </div>
                                     <div class="pi-text">
-                                        <div class="catagory-name">Coat</div>
-                                        <a href="#">
-                                            <h5>Guangzhou sweater</h5>
+                                        <div class="catagory-name">Department</div>
+                                        <a href="./product.html">
+                                            <h5>Book Name</h5>
                                         </a>
                                         <div class="product-price">
-                                            $13.00
-                                            <span>$35.00</span>
+                                            Price
+                                           
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                       
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
+                                        <img src="img/book.jpeg" alt="">
                                         <div class="icon">
                                             <i class="icon_heart_alt"></i>
                                         </div>
                                         <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                            
+                                            <li class="quick-view"><a href="./product.html">+ More Details</a></li>
+                                            
                                         </ul>
                                     </div>
                                     <div class="pi-text">
-                                        <div class="catagory-name">Shoes</div>
-                                        <a href="#">
-                                            <h5>Guangzhou sweater</h5>
+                                        <div class="catagory-name">Department</div>
+                                        <a href="./product.html">
+                                            <h5>Book Name</h5>
                                         </a>
                                         <div class="product-price">
-                                            $34.00
-                                            <span>$35.00</span>
+                                            Price
+                                           
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
-                                        <div class="icon">
-                                            <i class="icon_heart_alt"></i>
-                                        </div>
-                                        <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name">Coat</div>
-                                        <a href="#">
-                                            <h5>Microfiber Wool Scarf</h5>
-                                        </a>
-                                        <div class="product-price">
-                                            $64.00
-                                            <span>$35.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
-                                        <div class="icon">
-                                            <i class="icon_heart_alt"></i>
-                                        </div>
-                                        <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name">Shoes</div>
-                                        <a href="#">
-                                            <h5>Men's Painted Hat</h5>
-                                        </a>
-                                        <div class="product-price">
-                                            $44.00
-                                            <span>$35.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
-                                        <div class="icon">
-                                            <i class="icon_heart_alt"></i>
-                                        </div>
-                                        <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name">Shoes</div>
-                                        <a href="#">
-                                            <h5>Converse Shoes</h5>
-                                        </a>
-                                        <div class="product-price">
-                                            $34.00
-                                            <span>$35.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
-                                        <div class="sale pp-sale">Sale</div>
-                                        <div class="icon">
-                                            <i class="icon_heart_alt"></i>
-                                        </div>
-                                        <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name">Towel</div>
-                                        <a href="#">
-                                            <h5>Pure Pineapple</h5>
-                                        </a>
-                                        <div class="product-price">
-                                            $64.00
-                                            <span>$35.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
-                                        <div class="icon">
-                                            <i class="icon_heart_alt"></i>
-                                        </div>
-                                        <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name">Coat</div>
-                                        <a href="#">
-                                            <h5>2 Layer Windbreaker</h5>
-                                        </a>
-                                        <div class="product-price">
-                                            $44.00
-                                            <span>$35.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <img src="img/th (1).jpeg" alt="">
-                                        <div class="icon">
-                                            <i class="icon_heart_alt"></i>
-                                        </div>
-                                        <ul>
-                                            <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                            <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                            <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name">Shoes</div>
-                                        <a href="#">
-                                            <h5>Converse Shoes</h5>
-                                        </a>
-                                        <div class="product-price">
-                                            $34.00
-                                            <span>$35.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                       
                         </div>
                     </div>
                     <div class="loading-more">
@@ -454,16 +346,13 @@
                 <div class="col-lg-1"> </div>
             </div>
         </div>
-                <!-- <div class="col-lg-4"> </div> -->
-                //
-            <!-- </div>
-        </div> -->
+
     </section>
-    
-    <!-- Partner Logo Section End -->
+<!-- ------------------------------------------------------------ -->
+    <!-- books Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer-section"  id="footer-section">
+    <footer class="footer-section" id="footer-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -524,8 +413,11 @@
                     <div class="col-lg-12">
                         <div class="copyright-text">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div>
                         <div class="payment-pic">
                             <img src="img/payment-method.png" alt="">
@@ -548,6 +440,26 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+
+    </script>
 </body>
 
 </html>
