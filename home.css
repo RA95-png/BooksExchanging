@@ -21,6 +21,14 @@ margin-top: 20px;
 .list {
     left: 0;
 }
-.a {
-    margin-left: auto;
+.nav-item .nav-depart .styleDepart{
+    width: 200px;
+    padding: 7px ;
+    background : #fff;
+    color:#4c4c4c;
+    border: 1px solid #ECEDEE;
+    margin: 0 ;
+    font-size: 16px;
+    font-family: "Muli", sans-serif;
+  
 }
