@@ -6,16 +6,27 @@
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> aa4dbf8e6acf69a4b6eefd4f57b2ccdbb5e9c226
     margin-bottom: 3px;
     margin-top: -30px;
    
   
+<<<<<<< HEAD
+=======
+=======
+    margin-bottom: 12px;
+>>>>>>> bfd873b080184909b30d4350c17d5914846a50da
+>>>>>>> aa4dbf8e6acf69a4b6eefd4f57b2ccdbb5e9c226
   }
   
   #myUL {
     list-style-type: none;
     padding: 0;
     margin: 0;
+<<<<<<< HEAD
     margin-top: -6px;
    
    
@@ -23,6 +34,14 @@
     
   }
 
+=======
+<<<<<<< HEAD
+    margin-top: -6px;
+    
+=======
+>>>>>>> bfd873b080184909b30d4350c17d5914846a50da
+  }
+>>>>>>> aa4dbf8e6acf69a4b6eefd4f57b2ccdbb5e9c226
   
   #myUL li a {
     border: 1px solid #ddd;
@@ -32,9 +51,18 @@
     text-decoration: none;
     font-size: 18px;
     color: black;
+<<<<<<< HEAD
     display: block;
  
     
+=======
+<<<<<<< HEAD
+    display: block;
+    
+=======
+    display: block
+>>>>>>> bfd873b080184909b30d4350c17d5914846a50da
+>>>>>>> aa4dbf8e6acf69a4b6eefd4f57b2ccdbb5e9c226
   }
   
   #myUL li a:hover:not(.header) {
