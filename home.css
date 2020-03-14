@@ -35,9 +35,15 @@ margin-top: 20px;
     font-family: "Muli", sans-serif;
   
 }
+<<<<<<< HEAD
 /* .bad{
   padding-bottom:20px ;
 } */
+=======
+.bad{
+  padding-bottom:20px ;
+}
+>>>>>>> 1d52d8e4ba2d81e75a15a2f5a5f8dd5678321f1a
 /* .nav-item .nav-depart .styleDepart . */
 #hh{
   height:30px;
