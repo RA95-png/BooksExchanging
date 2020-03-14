@@ -1,3 +1,4 @@
+// =============================B64============================
 const inputfile = document.getElementById("fileInput"),
 imgBook = document.getElementById('imgBook');
   let b64 = "";
@@ -30,11 +31,96 @@ inputfile.onchange = function () {
   img.readAsDataURL(file);
 };
 
+//======================================Sale, Exchange and donation textFields===============================================
+let donation = document.getElementById("donation");
+let sale = document.getElementById("sale");
+let exchange = document.getElementById("exchange");
+let saleable = document.getElementById("saleable");
 
+// ============================exchange==========================================
+function radioChecked1(){
+  if(exchange.checked== true)
+  {
+  document.getElementById("textarea").style.display = "block";
+  document.getElementById("price").style.display= "none";
 
+  document.getElementById("negoLbl").style.display = "none" ;
+  document.getElementById("Negotiable").style.display = "none" ;
 
+    document.getElementById("sealableLbl").style.visibility= "visible" ;
+  document.getElementById("saleable").style.visibility= "visible";
+  
+  
+  }
+  else 
+  {
+    radioChecked3();
+    
+  }
+}
 
+// ==================saleable=========================
+function radioChecked2(){
+  if(saleable.checked== true)
+  {
+  document.getElementById("price").style.display = "block";
 
+  document.getElementById("Negotiable").style.display = "block" ;
+  document.getElementById("negoLbl").style.display = "block" ;
+  document.getElementById("sale").style.visibility= "hidden" ;
+  }
+  else
+  {
+    document.getElementById("textarea").style.display = "block";
+  document.getElementById("price").style.display= "none";
+  document.getElementById("Negotiable").style.display = "block" ;
+  document.getElementById("negoLbl").style.display = "block" ;
+  }
+}
+
+// ==================sale====================
+function radioChecked3(){
+  if(sale.checked== true)
+  {
+  document.getElementById("price").style.display = "block";
+  document.getElementById("textarea").style.display = "none" ;
+
+  document.getElementById("Negotiable").style.display = "block" ;
+  document.getElementById("negoLbl").style.display = "block" ;
+document.getElementById("saleable").style.visibility= "hidden";
+	document.getElementById("sealableLbl").style.visibility= "hidden" ;
+  }
+  else
+  {
+    document.getElementById("price").style.display= "none";
+    document.getElementById("negoLbl").style.display = "none" ;
+    document.getElementById("Negotiable").style.display = "none" ;
+  
+    
+  }
+}
+
+// ==================donation====================
+function radioChecked4(){
+  if(donation.checked== true){
+    document.getElementById("price").style.display= "none";
+    document.getElementById("textarea").style.display = "none" ;
+	document.getElementById("Negotiable").style.display = "none" ;
+
+	document.getElementById("negoLbl").style.display = "none" ;
+	document.getElementById("saleable").style.visibility= "hidden";
+	document.getElementById("sealableLbl").style.visibility= "hidden" ;
+    //document.getElementById("Negotiable").disabled = true;
+   // document.getElementById("saleable").disabled = true;
+  }
+}
+// =======================================================================================
+
+function hide()
+{  document.getElementById("saleable").style.visibility= "hidden";
+	document.getElementById("sealableLbl").style.visibility= "hidden" ;
+}
+window.onload = hide;
 
 
 
