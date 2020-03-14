@@ -4,7 +4,10 @@ function myFunction() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
+<<<<<<< HEAD
     console.log(li);
+=======
+>>>>>>> 2a6063bbd24656c3a136cb060aef24ecbc1f9325
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;

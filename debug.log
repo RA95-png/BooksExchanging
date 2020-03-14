@@ -43,6 +43,7 @@
 [0312/111012.897:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0312/111012.897:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0312/111012.897:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [0314/091259.224:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0314/091259.224:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0314/091259.224:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -61,3 +62,5 @@
 [0314/102316.068:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0314/102316.069:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0314/102316.069:ERROR:crash_report_database_win.cc(469)] failed to stat report
+=======
+>>>>>>> 2a6063bbd24656c3a136cb060aef24ecbc1f9325
