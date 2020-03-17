@@ -30,7 +30,6 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="header-top">
@@ -46,137 +45,105 @@
                     </div>
                 </div>
                 <div class="ht-right">
-                    <a href="#" class="login-panel"><i class="fa fa-user"></i>Login</a>
+                    <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
                     <div class="lan-selector">
                         <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">English</option>
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt" data-title="English">
+                                English</option>
                             <option value='yu' data-image="img/jordan (1).png" data-imagecss="flag yu"
-                                data-title="Bangladesh">Arabic</option>
+                                data-title="Bangladesh" disabled >Arabic</option>
                         </select>
                     </div>
-                    <div class="top-social">
-                        <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter-alt"></i></a>
-                        <a href="#"><i class="ti-linkedin"></i></a>
-                        <a href="#"><i class="ti-pinterest"></i></a>
-                    </div>
+                   
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="inner-header">
-                <div class="row">
-                    <div class="col-lg-2 col-md-2">
-                        <div class="logo">
-                            <a href="./index.html">
-                                <img src="img/logo.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-7 col-md-7">
-                        <div class="advanced-search">
-                 <!-- <button type="button" class="btn"> Search </button> -->
-                            <form action="#" class="input-group">
-                        <button type="button"><i class="ti-search"></i></button>
-                    <input type="text" placeholder="Search   |    What do you need?">
-                             </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-right col-md-3">
-                        <a href="advanced.html" class="primary-btn">advanced-search</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="nav-item">
-            <div class="container">
-                <div class=" nav-depart">
-                     <!-- <div class="depart-btn">
-                        <i class="ti-menu"></i>
+        
+                <nav class="navbar navbar-expand-lg navbar-dark background-link" style="padding:0px 16px;">
+                    <a class="navbar-brand" href="#" style="width: 8%;">LOGO</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon" id="icon"></span>
+                    </button>
+                  
+                    <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="link y" href="./books.html">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link" href="./addBook.html">Add Book</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="link" href="#footer-section">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="link"  href="./advanced.html">Advanced Search </a>
+                          </li>
+
+                         
+                             
+                          
+                      </ul>
                       
-                        <span>All University</span>
-                        <ul class="depart-hover">
-                            <li class="active" ><a href="#">University</a></li>
-                             <li><a href="#">Jordan University of Science and Tochnology</a>
-                                <ul >
-                                <li><a href="#">Faculty of Sharia</a></li>
-                                <li><a href="#">Faculty of Low</a></li>
-                                <li><a href="#">Faculty of Science</a>
-                                <ul>
-                                    <li><a href="#">Mathematics</a></li>
-                                    <li><a href="#">Physics</a></li>
-                                    <li><a href="#">Chemistry</a></li>
-                                    <li><a href="#">Biological Sciences</a></li>
-                                    <li><a href="#">Geology</a></li></ul>
-                                </li>
-                                </ul>
-                             </li>
-                            <li><a href="#">Al al-Bayt University</a></li>
-                            <li><a href="#">The University of Jordan</a></li>
-                            <li><a href="#">Yarmouk University</a></li>
-                            <li><a href="#">The Hashemite University</a></li>
-                            <li><a href="#">Middle East University</a></li>
-                            <li><a href="#">Isra University</a></li>
-                            <li><a href="#">Al-Balqa Applied University</a></li>
-                        </ul>
-                    </div>  -->
-                </div>
-                <nav class="nav-menu mobile-menu">
-                    <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./books.html">Books</a></li>
-                        <li><a href="./addBook.html">Add Book</a></li>
-                        <li><a href="#footer-section">About Us</a></li>
-                        <!-- <li><a href="#">Sort</a>
-                            <ul class="dropdown list">
-                                <li><a href="#">By Name</a></li>
-                                <li><a href="#">By price</a></li>
-                                <li><a href="#">By date</a></li>
-                            </ul>
-                        </li> -->
-                    </ul>
-                </nav>
-                <div id="mobile-menu-wrap"></div>
-            </div>
-        </div>
-    </header>
+                      <div class="col-sm-4">
+                        <div class="newslatter-item">
+    
+                            <form action="#" class="subscribe-form">
+                                <input type="text" placeholder="what do you want?..">
+                                <button type="button">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                  </nav>
+               
+                </header>
     <!-- Header End -->
 
     <!-- Hero Section Begin -->
     <section class="hero-section">
         <div class="hero-items owl-carousel">
-            <div class="single-hero-items set-bg" data-setbg="img/hero-1.jpg">
+            <div class="single-hero-items set-bg"  data-setbg="img/wallpaper1.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
-                            <span>Bag,kids</span>
-                            <h1>Black friday</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore</p>
-                            <a href="#" class="primary-btn">Shop Now</a>
+                            
+                            <h1 >Book Name</h1>
+                            <a href="product.html" class="primary-btn">View Details</a>
                         </div>
                     </div>
-                    <div class="off-card">
-                        <h2>Sale <span>50%</span></h2>
-                    </div>
+                
                 </div>
             </div>
-            <div class="single-hero-items set-bg" data-setbg="img/hero-2.jpg">
+
+            <div class="single-hero-items set-bg" data-setbg="img/wallpaper3.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
-                            <span>Bag,kids</span>
-                            <h1>Black friday</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore</p>
-                            <a href="#" class="primary-btn">Shop Now</a>
+                            
+                            <h1>Book Name</h1>
+                            <a href="product.html" class="primary-btn">View Details</a>
                         </div>
                     </div>
-                    <div class="off-card">
-                        <h2>Sale <span>50%</span></h2>
+                
+                </div>
+            </div>  
+
+                    <div class="single-hero-items set-bg" data-setbg="img/wallpaper2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            
+                            <h1>Book Name</h1>
+                            <a href="product.html" class="primary-btn">View Details</a>
+                        </div>
                     </div>
+                
+                </div>
+            </div>
                 </div>
             </div>
         </div>
@@ -187,36 +154,32 @@
     <div class="banner-section spad">
         <div class="container-fluid">
             <!-- row for ever 3 in line -->
-            <div class="row">
+            <div class="row" >
                 <!-- 1 col-lg-4-->
 
-                <!--  ||||     ||||             ||||||||||            ||||     |||||         |||||         |||| --> 
-						
-							
-					
-                <!--  ||||     ||||             ||||||||||            ||||     |||||         |||||         |||| -->
-                <div class="col-lg-3">
-                    <a href="./books.html">
-                    <div class="single-banner">
-                        <img src="img/th (1).jpeg" alt="">
+                <div class="col-lg-3" style="margin-bottom: 15px;" >
+                    <!-- <a href="./books.html"> -->
+                    <div  idbook="Science" class="single-banner" onclick="open(event.target)">  
+                        <img src="img/wallpaper1.jpg" alt="" >
                         <div class="inner-text">
                             <h4>Science</h4>
                         </div>
-                    </div></a>
+                    </div>
+                <!-- </a> -->
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" style="margin-bottom: 15px;">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/th (2).jpeg" alt="">
+                        <img src="img/IT.jpg" alt="">
                         <div class="inner-text">
                             <h4>IT</h4>
                             </div>
                         </div></a>
                     </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" style="margin-bottom: 15px;">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/th (3).jpeg" alt="">
+                        <img src="img/Economics.jpg" alt="">
                         <div class="inner-text">
                             <h4>Faculty of Economics</h4>
                         </div>
@@ -225,27 +188,18 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/nursing.jpg" alt="">
                         <div class="inner-text">
                             <h4>Nursing</h4>
                         </div>
                        
                     </div> </a>
                 </div>
-                <div class="col-lg-3">
+             
+                <div class="col-lg-3" style="margin-bottom: 15px;">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
-                        <div class="inner-text">
-                            <h4>Society</h4>
-                        </div>
-                    </div> </a>
-                </div>
-
-                <div class="col-lg-3">
-                    <a href="./books.html">
-                    <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/wallpaper3.jpg" alt="">
                         <div class="inner-text">
                             <h4>Sharia</h4>
                         </div>
@@ -255,7 +209,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/law.jpg" alt="">
                         <div class="inner-text">
                             <h4>Law</h4>
                         </div>
@@ -265,7 +219,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/wallpaper4.jpg" alt="">
                         <div class="inner-text">
                             <h4> Arts and Humanities</h4>
                         </div>
@@ -275,7 +229,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Engineering.jpg"  alt="">
                         <div class="inner-text">
                             <h4>Engineering</h4>
                         </div>
@@ -285,7 +239,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Educational Sciences.jpg" alt="">
                         <div class="inner-text">
                             <h4>Educational Sciences</h4>
                         </div>
@@ -295,7 +249,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Medicine.jpg" style="padding-bottom: 15px;" alt="">
                         <div class="inner-text">
                             <h4> Medicine</h4>
                         </div>
@@ -304,7 +258,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Pharmacy.jpg" alt="">
                         <div class="inner-text">
                             <h4>Pharmacy</h4>
                         </div>
@@ -313,16 +267,16 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Dentistry.jpg" alt="">
                         <div class="inner-text">
-                            <h4>dentistry</h4>
+                            <h4>Dentistry</h4>
                         </div>
                     </div> </a>
                 </div>
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Veterinary Medicine.jpg" alt="">
                         <div class="inner-text">
                             <h4>Veterinary Medicine</h4>
                         </div>
@@ -331,7 +285,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Agriculture.jpg" alt="">
                         <div class="inner-text">
                             <h4>Agriculture</h4>
                         </div>
@@ -340,7 +294,7 @@
                 <div class="col-lg-3">
                     <a href="./books.html">
                     <div class="single-banner">
-                        <img src="img/book.jpeg" alt="">
+                        <img src="img/Physical Education.jpg" alt="">
                         <div class="inner-text">
                             <h4>Physical Education</h4>
                         </div>
@@ -354,112 +308,88 @@
     <!-- Banner Section End -->
 
     <!-- Women Banner Section Begin -->
-    <!-- <section class="women-banner spad">
+     <section class="women-banner spad">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="product-large set-bg" data-setbg="img/products/women-large.jpg">
-                        <h2>Women’s</h2>
-                        <a href="#">Discover More</a>
+                    <div class="product-large set-bg" data-setbg="img/wallpaper1.jpg ">
+                        <h2>Book Name</h2>
+                        <a href="sale.html">Discover More</a>
                     </div>
                 </div>
                 <div class="col-lg-8 offset-lg-1">
                     <div class="filter-control">
                         <ul>
-                            <li class="active">Clothings</li>
-                            <li>HandBag</li>
-                            <li>Shoes</li>
-                            <li>Accessories</li>
+                            <li class="active">Books for Sale</li>
+                         
                         </ul>
                     </div>
                     <div class="product-slider owl-carousel">
-                        <div class="product-item">
+
+                    <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/women-1.jpg" alt="">
-                                <div class="sale">Sale</div>
+                                <img src="img/wallpaper1.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
                                 <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                    <li class="w-icon active"><a href="product.html"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="product.html">BOOK NAME</a></li>
+                                  
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Coat</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
+                                <div class="catagory-name">Catagory Name</div>
+                                <a href="product.html">
+                                    <h5>The Owner Book Name</h5>
                                 </a>
                                 <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
+                                    2.4 JD
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/wallpaper2.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="product.html"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="product.html">BOOK NAME</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">Catagory Name</div>
+                                <a href="product.html">
+                                    <h5>The Owner Book Name</h5>
+                                </a>
+                                <div class="product-price">
+                                    2.4 JD
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/women-2.jpg" alt="">
+                                <img src="img/wallpaper4.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
                                 <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                    <li class="w-icon active"><a href="product.html"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="product.html">BOOK NAME</a></li>
+                                   
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Shoes</div>
-                                <a href="#">
-                                    <h5>Guangzhou sweater</h5>
+                                <div class="catagory-name">Catagory Name</div>
+                                <a href="product.html">
+                                    <h5>The Owner Book Name</h5>
                                 </a>
                                 <div class="product-price">
-                                    $13.00
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="img/products/women-3.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="pi-pic">
-                                <img src="img/products/women-4.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
-                                <a href="#">
-                                    <h5>Converse Shoes</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
+                                    1.00 JD
                                 </div>
                             </div>
                         </div>
@@ -467,11 +397,11 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> 
     <!-- Women Banner Section End -->
 
     <!-- Deal Of The Week Section Begin-->
-    <!-- <section class="deal-of-week set-bg spad" data-setbg="img/time-bg.jpg">
+  <!-- <section class="deal-of-week set-bg spad" data-setbg="img/time-bg.jpg">
         <div class="container">
             <div class="col-lg-6 text-center">
                 <div class="section-title">
@@ -508,124 +438,124 @@
     <!-- Deal Of The Week Section End -->
 
     <!-- Man Banner Section Begin -->
-    <!-- <section class="man-banner spad">
+     <section class="man-banner spad">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="filter-control">
                         <ul>
-                            <li class="active">Clothings</li>
-                            <li>HandBag</li>
-                            <li>Shoes</li>
-                            <li>Accessories</li>
+                            <li class="active">Free Books</li>
+                            
                         </ul>
                     </div>
                     <div class="product-slider owl-carousel">
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-1.jpg" alt="">
-                                <div class="sale">Sale</div>
+                                <img src="img/wallpaper2.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
                                 <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                    <li class="w-icon active"><a href="product.html"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="product.html">BOOK NAME</a></li>
+                                    
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Coat</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
+                                <div class="catagory-name">Catagory Name</div>
+                                <a href="product.html">
+                                    <h5>The Owner Book Name</h5>
                                 </a>
                                 <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
+                                    FREE
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-2.jpg" alt="">
+                                <img src="img/wallpaper3.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
                                 <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                    <li class="w-icon active"><a href="product.html"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="product.html">BOOK NAME</a></li>
+                                   
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Shoes</div>
-                                <a href="#">
-                                    <h5>Guangzhou sweater</h5>
+                                <div class="catagory-name">Catagory Name</div>
+                                <a href="product.html">
+                                    <h5>The Owner Book Name</h5>
                                 </a>
                                 <div class="product-price">
-                                    $13.00
+                                    FREE
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-3.jpg" alt="">
+                                <img src="img/wallpaper4.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
                                 <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                    <li class="w-icon active"><a href="product.html"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="product.html">BOOK NAME</a></li>
+                                    
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
+                                <div class="catagory-name">Catagory Name</div>
+                                <a href="product.html">
+                                    <h5>The Owner Book Name</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                    FREE
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-4.jpg" alt="">
+                                <img src="img/wallpaper1.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
                                 <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                    <li class="w-icon active"><a href="product.html"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="product.html">BOOK NAME</a></li>
+                                    
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
-                                <a href="#">
-                                    <h5>Converse Shoes</h5>
+                                <div class="catagory-name">Catagory Name</div>
+                                <a href="product.html">
+                                    <h5>The Owner Book Name</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                    FREE
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1">
-                    <div class="product-large set-bg m-large" data-setbg="img/products/man-large.jpg">
-                        <h2>Men’s</h2>
-                        <a href="#">Discover More</a>
+                    <div class="product-large set-bg" data-setbg="img/wallpaper3.jpg ">
+                        <h2>Book Name</h2>
+                        <a href="./sale.html">Discover More</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> 
     <!-- Man Banner Section End -->
 
     <!-- Instagram Section Begin -->
-    <!-- <div class="instagram-photo">
+
+
+     <!--<div class="instagram-photo">
+
+
         <div class="insta-item set-bg" data-setbg="img/insta-1.jpg">
             <div class="inside-text">
                 <i class="ti-instagram"></i>
@@ -662,11 +592,13 @@
                 <h5><a href="#">colorlib_Collection</a></h5>
             </div>
         </div>
-    </div> -->
+
+    </div>  -->
     <!-- Instagram Section End -->
 
     <!-- Latest Blog Section Begin -->
-    <!-- <section class="latest-blog spad">
+  <!-- <section class="latest-blog spad">
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -778,7 +710,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> --> -->
     <!-- Latest Blog Section End -->
 
     <!-- Footer Section Begin -->
@@ -798,8 +730,7 @@
                         <div class="footer-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -808,9 +739,8 @@
                         <h5>Information</h5>
                         <ul>
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Checkout</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li><a href="#">Serivius</a></li>
+                 
                         </ul>
                     </div>
                 </div>
@@ -820,44 +750,19 @@
                         <ul>
                             <li><a href="#">My Account</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li><a href="#">Shopping Cart</a></li>
-                            <li><a href="#">Shop</a></li>
+                        
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="newslatter-item">
-                        <h5>Join Our Newsletter Now</h5>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
-                        <form action="#" class="subscribe-form">
-                            <input type="text" placeholder="Enter Your Mail">
-                            <button type="button">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
+                
             </div>
         </div>
-        <div class="copyright-reserved">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-text">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </div>
-                        <div class="payment-pic">
-                            <img src="img/payment-method.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </footer>
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/jquery-3.3.1.min.js"></script> 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
@@ -867,6 +772,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="javascript/home.js"></script>
 </body>
 
 </html>

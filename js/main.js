@@ -189,12 +189,12 @@
         max: maxPrice,
 		values: [minPrice, maxPrice],
 		slide: function (event, ui) {
-			minamount.val('$' + ui.values[0]);
-			maxamount.val('$' + ui.values[1]);
+			minamount.val( ui.values[0]+'JOD' );
+			maxamount.val(ui.values[1] + 'JOD');
 		}
 	});
-	minamount.val('$' + rangeSlider.slider("values", 0));
-    maxamount.val('$' + rangeSlider.slider("values", 1));
+	minamount.val( rangeSlider.slider("values", 0)+'JOD' );
+    maxamount.val( rangeSlider.slider("values", 1)+'JOD' );
 
     /*-------------------
 		Radio Btn
@@ -247,4 +247,32 @@
 		$button.parent().find('input').val(newVal);
 	});
 
+    
 })(jQuery);
+$(document).ready(function () {
+    $.when($('select').addClass('auto-drop-sort')).then($.fn.sortDropOptions("auto-drop-sort"))
+})
+
+/*sort all dropdown*/
+$.fn.sortDropOptions = function(dropdown_class){
+    var prePrepend = ".";
+    if (dropdown_class.match("^.") == ".") prePrepend = "";
+    var myParent = $(prePrepend + dropdown_class);
+    $.each(myParent, function(index, val) {
+        /*if any select tag has this class 'manual-drop-sort' this function wont work for that particular*/
+        if ( ! $(val).hasClass('manual-drop-sort') ) {
+            var selectedVal = $(val).val()
+            $(val).html($(val).find('option').sort(
+                function (a, b) {
+                    if ( a.value != -1 && a.value != 0 && a.value != '' ) {
+                        return a.text == b.text ? 0 : a.text < b.text ? -1 : 1 
+                    }
+                })
+            );
+            $(val).val(selectedVal)
+        }else{
+            /* set custom sort for individual select tag using name/id */
+        }
+    });
+}
+

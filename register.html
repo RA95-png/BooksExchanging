@@ -7,9 +7,9 @@
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fashi | Template</title>
+    <title>Book | Register</title>
 
-    <!-- Google Font -->
+ <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" >
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-   
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="css/liveSearch.css" type="text/css">
+
 </head>
 
 
@@ -35,125 +35,78 @@
     </div>
 
     <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="header-top">
-            <div class="container">
-                <div class="ht-left">
-                    <div class="mail-service">
-                        <i class=" fa fa-envelope"></i>
-                        hello.colorlib@gmail.com
-                    </div>
-                    <div class="phone-service">
-                        <i class=" fa fa-phone"></i>
-                        +65 11.188.888
-                    </div>
-                </div>
-                <div class="ht-right">
-                    <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
-                    <div class="lan-selector">
-                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">English</option>
-                            <option value='yu' data-image="img/jordan (1).png" data-imagecss="flag yu"
-                                data-title="Bangladesh">Arabic</option>
-                        </select>
-                    </div>
-                    <div class="top-social">
-                        <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter-alt"></i></a>
-                        <a href="#"><i class="ti-linkedin"></i></a>
-                        <a href="#"><i class="ti-pinterest"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+   <!-- Header Section Begin -->
+   <header class="header-section">
+    <div class="header-top">
         <div class="container">
-            <div class="inner-header">
-                <div class="row">
-                    <div class="col-lg-2 col-md-2">
-                        <div class="logo">
-                            <a href="./index.html">
-                                <img src="img/logo.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-7">
-                        <div class="advanced-search">
-                            <button type="button" class="category-btn">All Categories</button>
-                            <div class="input-group">
-                                <input type="text" placeholder="What do you need?">
-                                <button type="button"><i class="ti-search"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 text-right col-md-3">
-                        <a href="advanced.html" class="primary-btn">advanced-search</a>
-                    </div>
+            <div class="ht-left">
+                <div class="mail-service">
+                    <i class=" fa fa-envelope"></i>
+                    hello.colorlib@gmail.com
+                </div>
+                <div class="phone-service">
+                    <i class=" fa fa-phone"></i>
+                    +65 11.188.888
                 </div>
             </div>
-        </div>
-        <div class="nav-item">
-            <div class="container">
-                <div class="nav-depart">
-                    <div class="depart-btn">
-                        <i class="ti-menu"></i>
-                        <!-- ///// //// //// //// //// -->
-                        <span>All University</span>
-                        <ul class="depart-hover">
-                            <li class="active" ><a href="#">University</a></li>
-                             <li><a href="#">Jordan University of Science and Tochnology</a>
-                                <ul >
-                                <li><a href="#">Faculty of Sharia</a></li>
-                                <li><a href="#">Faculty of Low</a></li>
-                                <li><a href="#">Faculty of Science</a>
-                                <ul>
-                                    <li><a href="#">Mathematics</a></li>
-                                    <li><a href="#">Physics</a></li>
-                                    <li><a href="#">Chemistry</a></li>
-                                    <li><a href="#">Biological Sciences</a></li>
-                                    <li><a href="#">Geology</a></li></ul>
-                                </li>
-                                </ul>
-                             </li>
-                            <li><a href="#">Al al-Bayt University</a></li>
-                            <li><a href="#">The University of Jordan</a></li>
-                            <li><a href="#">Yarmouk University</a></li>
-                            <li><a href="#">The Hashemite University</a></li>
-                            <li><a href="#">Middle East University</a></li>
-                            <li><a href="#">Isra University</a></li>
-                            <li><a href="#">Al-Balqa Applied University</a></li>
-                        </ul>
-                    </div>
+            <div class="ht-right">
+                <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
+                <div class="lan-selector">
+                    <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                        <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt" data-title="English">
+                            English</option>
+                        <option value='yu' data-image="img/jordan (1).png" data-imagecss="flag yu"
+                            data-title="Bangladesh" disabled >Arabic</option>
+                    </select>
                 </div>
-                <nav class="nav-menu mobile-menu">
-                    <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <!-- <li><a href="./shop.html">Shop</a></li> -->
-                        <li><a href="#">Sort</a>
-                            <ul class="dropdown">
-                                <li><a href="#">By Name</a></li>
-                                <li><a href="#">By price</a></li>
-                                <li><a href="#">By date</a></li>
-                            </ul>
-                        </li>
-                        <!-- <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./contact.html">Contact</a></li> -->
-                        <!-- <li><a href="#">Pages</a>
-                            <ul class="dropdown">
-                                <li><a href="./blog-details.html">Blog Details</a></li>
-                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="./check-out.html">Checkout</a></li>
-                                <li><a href="./faq.html">Faq</a></li>
-                                <li><a href="./register.html">Register</a></li>
-                                <li><a href="./login.html">Login</a></li>
-                            </ul>
-                        </li> -->
-                    </ul>
-                </nav>
-                <div id="mobile-menu-wrap"></div>
+               
             </div>
         </div>
-    </header>
+    </div>
+    
+            <nav class="navbar navbar-expand-lg navbar-dark background-link" style="padding:0px 16px;">
+                <a class="navbar-brand" href="#" style="width: 8%;">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon" id="icon"></span>
+                </button>
+              
+                <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="link" href="./books.html">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="./addBook.html">Add Book</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="link" href="#footer-section">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="link"  href="./advanced.html">Advanced Search </a>
+                      </li>
+
+                     
+                         
+                      
+                  </ul>
+                  
+                  <div class="col-sm-4">
+                    <div class="newslatter-item">
+
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="what do you want?..">
+                            <button type="button">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+                </div>
+              </nav>
+           
+            </header>
     <!-- Header End -->
 
 
@@ -163,7 +116,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
                         <span>Register</span>
                     </div>
                 </div>
@@ -172,8 +125,8 @@
     </div>
     <!-- Breadcrumb Form Section Begin -->
 
-    <!-- Register Section Begin -->
-    <div class="register-login-section spad">
+     <!-- Register Section Begin -->
+     <div class="register-login-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -182,89 +135,248 @@
                         <form action="#">
                             <div class="group-input">
                                 <input type="text" id="username" placeholder="Name ">
-                                <p class="error" id="error"></p>
-                            </div> 
+
+                                <p class="error" id="error1"></p>
+                            </div>
 
                             <div class="group-input">
-                                <input type="text" id="username" placeholder="Email Address ">
-                                <p class="error" id="error"> </p>
+                                <input type="email" id="email" placeholder="Email Address ">
+                                <p class="error" id="error2"></p>
+
                             </div>
                             <div class="group-input">
                                 <input type="text" id="mobile" placeholder="Mobile">
-                                <p class="error" id="error"> </p>
+                                <p class="error" id="error3"></p>
                             </div>
-                        <!-- University --> 
-                        
-                        <select  data-live-search="true"  title="Please select University"  data-live-search-placeholder="Search University" class="form-control selectpicker">
-                            <option id="aabu">Al al-Bayt University</option>
-                            <option id="ju">The University of Jordan</option>
-                            <option id="yu">Yarmouk University</option>
-                            <option id="hu">The Hashemite University</option>
-                            <option id="meu">  Middle East University</option>
-                            <option id="iu">  Al-Isra University</option>
-                            <option id="bau"> Al-Balqa Applied University</option>
-                            <option id="just"> Jordan University of Science and Technology</option>
-                            <option id="ahu"> Al Hussein Bin Talal University</option>
-                            <option id="mutah">Mutah</option>
-                            <option id="ttu"> Tafila Technical University</option>
-                            <option id="gju"> German Jordanian University</option>
-                            <option id="amman">Al-Ahliyya Amman University</option>
-                            <option id="zuj">Al-Zaytoonah University of Jordan</option>
-                            <option id="phu">Philadelphia University</option>
-                            <option id="psut">Princess Sumaya University for Technology</option>
-                            <option id="up">University of Petra</option>
-                            <option id="aspu">Applied Science Private University</option>
-                            <option id="jpu">Jerash University</option>
-                            <option id="zu">Zarqa University</option>
-                            <option id="inu">Irbid National University</option>
-                            <option id="anpu">Ajloun National Private University</option>
-                            <option id="aau">Amman Arab University</option>
-                            <option id="aum">American University of Madaba</option>
-                            <option id="jadara">Jadara University </option>
-                            <option id="meu">Middle East University</option>
-                            <option id="aut">Aqaba University of Technology</option>
-                            <option id="aut">Al Hussein Technical University</option>
-                          </select>
-                                  <p class="error" id="error"> </p>
-                                  <!-- ---------------------------------- -->
-                                  <!-- collge -->
-                                  <select id="collge" class="University" >
-                                    <option id="coll">Collge </option>
-                                    <option id="it">  IT </option>
-                                    <option id="fe">Faculty of Economics </option>
-                                    <option id="nu">Nursing</option>
-                                    <option id="sh">Sharia</option>
-                                    <option id="law">Law</option>
-                                    <option id="arts"> Arts and Humanities</option>
-                                    <option id="eng">  Engineering</option>
-                                    <option id="sci"> Science</option>
-                                    <option id="edus"> Educational Sciences</option>
-                                    <option id="med"> Medicine</option>
-                                    <option id="pha"> Pharmacy</option>
-                                    <option id="den">dentistry</option>
-                                  </select>
-                                  <p class="error" id="error"> </p>
-                                  <!-- ----------------------------------------- -->
-                                  <!-- DEPARTMENT -->
-                                  <select id="depatments" class="University" >
-                                    <option id="coll">Depatment </option>
-                                </select>
-                                <p class="error" id="error"> </p>
+
+                            <div class="group-input">
+                                <input type="text" id="SocialMedia" placeholder="Social Media">
+                                <p class="error" id="error4"></p>
+                            </div>
+                            <!-- University -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+
+                                        <select data-live-search="true" title="Please select University" id="university"
+                                            data-live-search-placeholder="Search for University"
+                                            class="form-control selectpicker" id="ddlList">
+                                            <option value="" >University</option>
+                                            <option id="aabu">Al al-Bayt University</option>
+                                            <option id="ju">The University of Jordan</option>
+                                            <option id="yu">Yarmouk University</option>
+                                            <option id="hu">The Hashemite University</option>
+                                            <option id="meu">Middle East University</option>
+                                            <option id="iu">Al-Isra University</option>
+                                            <option id="bau">Al-Balqa Applied University</option>
+                                            <option id="just">Jordan University of Science and Technology</option>
+                                            <option id="ahu">Al Hussein Bin Talal University</option>
+                                            <option id="mutah">Mutah</option>
+                                            <option id="ttu">Tafila Technical University</option>
+                                            <option id="gju">German Jordanian University</option>
+                                            <option id="amman">Al-Ahliyya Amman University</option>
+                                            <option id="zuj">Al-Zaytoonah University of Jordan</option>
+                                            <option id="phu">Philadelphia University</option>
+                                            <option id="psut">Princess Sumaya University for Technology</option>
+                                            <option id="up">University of Petra</option>
+                                            <option id="aspu">Applied Science Private University</option>
+                                            <option id="jpu">Jerash University</option>
+                                            <option id="zu">Zarqa University</option>
+                                            <option id="inu">Irbid National University</option>
+                                            <option id="anpu">Ajloun National Private University</option>
+                                            <option id="aau">Amman Arab University</option>
+                                            <option id="aum">American University of Madaba</option>
+                                            <option id="jadara">Jadara University </option>
+                                            <option id="meu">Middle East University</option>
+                                            <option id="aut">Aqaba University of Technology</option>
+                                            <option id="aut">Al Hussein Technical University</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="error" id="error5"></p>
+                            <!-- ---------------------------------- -->
+                            <!-- collge -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+
+               <select data-live-search="true" id="college" title="Please select collge"
+                                            data-live-search-placeholder="Search for collge"
+                                            class="form-control selectpicker">
+                                            <option value="">College</option>
+                                            <option id="it"> IT </option>
+                                            <option id="fe">Faculty of Economics </option>
+                                            <option id="nu">Nursing</option>
+                                            <option id="sh">Sharia</option>
+                                            <option id="law">Law</option>
+                                            <option id="arts">Arts and Humanities</option>
+                                            <option id="eng">Engineering</option>
+                                            <option id="sci">Science</option>
+                                            <option id="edus">Educational Sciences</option>
+                                            <option id="med">Medicine</option>
+                                            <option id="pha">Pharmacy</option>
+                                            <option id="">Dentistry</option>
+                                            <option id="">Veterinary Medicine</option>
+                                            <option id="">Agriculture</option>
+                                            <option id="">Physical Education</option>
+
+
+
+                                        </select>
+                                    </div>
+                                    </div>
+                                </div>
+                                <p class="error" id="error6"></p>
+                                <!-- ----------------------------------------- -->
+                                <!-- DEPARTMENT -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+
+                                            <!-- Department -->
+
+                                            <select data-live-search="true" id="department" title="Please select Department "
+                                                data-live-search-placeholder="Search Department"
+                                                class="form-control selectpicker">
+
+                                                <!-- College of Science -->
+                                                <option value="">Department</option>
+                                                <option id="">Biology</option>
+                                                <option id="">Chemistry</option>
+                                                <option id="">Mathematics</option>
+                                                <option id="">geology</option>
+                                                <!-- ....................... -->
+                                                <!-- College of Engineering -->
+                                                <option id="">Aerospace Engineering</option>
+                                                <option id="">Civil engineering</option>
+                                                <option id="">Electrical engineering</option>
+                                                <option id="">Mechanical engineering</option>
+                                                <option id="">Interdisciplinary engineering</option>
+                                                <option id="">Marine engineering</option>
+                                                <option id="">Chemical engineering</option>
+                                                <option id="">Computer Engineering</option>
+                                                <option id="">Nuclear Engineering</option>
+                                                <option id="">Aeronautical Engineering</option>
+
+                                                <!-- .............. -->
+                                                <!-- IT College -->
+                                                <option id="">Computer Science</option>
+                                                <option id="">Computer Informations Systems </option>
+                                                <option id="">Software Engineering</option>
+                                                <option id="">Network Engineering and Security</option>
+                                                <!-- ................. -->
+                                                <!-- MEDICINE -->
+                                                <option id="">Anatomy</option>
+                                                <option id="">Anesthesia and Recovery</option>
+                                                <option id="">Diagnostic Radiology and Nuclear Medicine</option>
+                                                <option id="">Accident and Emergency Medicine</option>
+                                                <option id="">Legal Medicine, Toxicology and Forensic Medicine</option>
+                                                <option id="">General Surgery and Urology</option>
+                                                <option id="">Health Management and Policy</option>
+                                                <option id="">Internal Medicine</option>
+                                                <option id="">Neuroscience</option>
+                                                <option id="">Obstetrics and Gynecology</option>
+                                                <option id="">Pathology and Microbiology</option>
+                                                <option id="">Pediatrics and Neonatology</option>
+                                                <option id="">Pharmacology</option>
+                                                <option id="">Physiology and Biochemistry</option>
+                                                <option id="">Public Health and Community Medicine</option>
+                                                <option id="">Special Surgery</option>
+                                                <!-- ------------------ -->
+                                                <!-- Dentistry -->
+                                                <option id="">Conservative Dentistry</option>
+                                                <option id="">Oral Medicine and Oral Surgery</option>
+                                                <option id="">Preventive Dentistry</option>
+                                                <option id="">Prosthodontics</option>
+                                                <!-- ------------------------- -->
+                                                <!-- Pharmacy -->
+                                                <option id="">Clinical Pharmacy</option>
+                                                <option id="">Medicinal Chemistry and Pharmacognosy</option>
+                                                <option id="">Pharmaceutical Technology</option>
+                                                <!-- ------------------------- -->
+                                                <!-- NURSING -->
+                                                <option id="">Adult Health Nursing</option>
+                                                <option id="">Nursing</option>
+                                                <option id="">Maternal and Child Health Nursing</option>
+                                                <option id="">Community and Mental Health Nursing</option>
+                                                <option id="">Midwifery</option>
+                                                <!-- ----------------- -->
+                                                <!-- Agriculture -->
+                                                <option id="">Animal Production</option>
+                                                <option id="">Natural Resources and Environment</option>
+                                                <option id="">Nutrition and Food Technology</option>
+                                                <option id="">Department of Plant Production</option>
+                                                <!-- ------------- -->
+                                                <!--  Veterinary Medicine -->
+                                                <option id="">Veterinary Medicine</option>
+                                                <option id="">Basic Medical Veterinary Sciences</option>
+                                                <option id="">Clinical Veterinary Medical Sciences</option>
+                                                <option id="">Veterinary Pathology and Public Health</option>
+                                                <!-- ------------------------- -->
+                                                <!-- Arts & Languages -->
+                                                <option id="">Arabic Language and Literature</option>
+                                                <option id="">Philosophy</option>
+                                                <option id="">History</option>
+                                                <option id="">Sociology</option>
+                                                <option id="">Geography</option>
+                                                <option id="">Psychology</option>
+                                                <option id="">Social Work</option>
+                                                <option id="">Asian Languages</option>
+                                                <option id="">European Languages</option>
+                                                <option id="">French Language and Literature</option>
+                                                <option id="">English Language and Literature</option>
+
+                                                <!-- -------------- -->
+                                                <!-- Sharia -->
+                                                <option id="">Islamic Banks</option>
+                                                <option id="">Islamic Jurisprudence and its Foundation</option>
+                                                <option id="">Foundations of Religion</option>
+                                                <option id="">Islam in the contemporary world</option>
+
+                                                <!-- -------------- -->
+                                                <!-- Faculty of Economics -->
+                                                <option id="">Business</option>
+                                                <option id="">MIS</option>
+                                                <option id="">Accounting</option>
+                                                <option id="">Management and Insurance</option>
+                                                <option id="">Finance and Banking</option>
+                                                <option id="">Economics of Finance and Business</option>
+
+                                                <!-- -------------- -->
+                                                <!-- Educational Sciences -->
+                                                <option id="">Educational Psychology</option>
+                                                <option id="">Educational Leadership and Foundations</option>
+                                                <option id="">Counseling and Special Education</option>
+                                                <option id="">Library and Information</option>
+                                                <option id="">Curriculum and Instruction</option>
+                                                <!-- -------------- -->
+                                                <!--  Physical Education -->
+                                                <option id="">Managment and Coahing</option>
+                                                <option id="">Supervision and Teaching</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="error" id="error7"></p>
                                 <!-- ------------------------------------ -->
                                 <!-- password -->
-                            <div class="group-input">
-                                <input type="password" id="pass" placeholder="Password ">
-                                <p class="error" id="error"> </p>
-                            </div>
-                            <div class="group-input">
-                                <input type="password" id="con-pass" placeholder="Confirm Password ">
-                                <p class="error" id="error"> test</p>
-                            </div>
-                            <!-- ------------------------------------- -->
-                            <button type="submit" class="site-btn register-btn">REGISTER</button>
+                                <div class="group-input">
+                                    <input type="password" id="password" placeholder="Password ">
+                                    <p class="error" id="error8"></p>
+                                </div>
+                                <div class="group-input">
+                                    <input type="password" id="con-password" placeholder="Confirm Password ">
+                                    <p class="error" id="error9"></p>
+                                </div>
+                                <!-- ------------------------------------- -->
+                                <!-- <a href="./login.html"> -->
+                                    <button type="button" id="register" id="button" class=" primary-btn btn btn-block" > REGISTER</button>
+                                <!-- </a> -->
                         </form>
                         <div class="switch-login">
-                            <a href="./login.html" class="or-login">Or Login</a>
+                            <a href="./login.html" class="or-login" id="login">Or Login</a>
                         </div>
                     </div>
                 </div>
@@ -272,9 +384,10 @@
         </div>
     </div>
     <!-- Register Form Section End -->
+    <!-- Register Form Section End -->
     
     <!-- Partner Logo Section Begin -->
-    <div class="partner-logo">
+    <!-- <div class="partner-logo">
         <div class="container">
             <div class="logo-carousel owl-carousel">
                 <div class="logo-item">
@@ -304,11 +417,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Partner Logo Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer-section">
+    <footer class="footer-section" id="footer-section" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -392,11 +505,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.dd.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript"  src="./validator/node_modules/validator/validator.min.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
-</body>
+   <script src="./javascript/register.js" type="text/javascript" ></script>
 
+</body>
 </html>

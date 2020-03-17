@@ -1,6 +1,7 @@
+// =============================B64============================
 const inputfile = document.getElementById("fileInput"),
-imgBook = document.getElementById('imgBook');
-  let b64 = "";
+  imgBook = document.getElementById('imgBook');
+let b64 = "";
 
 function readURL(input) {
   console.log(input.files && input.files[0]);
@@ -30,11 +31,107 @@ inputfile.onchange = function () {
   img.readAsDataURL(file);
 };
 
+//======================================Sale, Exchange and donation textFields===============================================
+let donation = document.getElementById("donation");
+let sale = document.getElementById("sale");
+let exchange = document.getElementById("exchange");
+let saleable = document.getElementById("saleable");
+let priceSale = document.getElementById("priceSale");
+let NegotiableSale = document.getElementById("NegotiableSale");
+let NegotiableLBL = document.getElementById("NegotiableLBL");
+// ============================exchange==========================================
+function radioChecked1() {
+  if (exchange.checked == true) {
+    document.getElementById("textarea").style.display = "block";
+    document.getElementById("sealableLbl").style.display = "inline-block";
+    document.getElementById("saleable").style.display = "inline-block";
+    document.getElementById("price").style.display = "none";
+    document.getElementById("Negotiable").style.display = "none";
+    document.getElementById("negoLbl").style.display = "none";
+    saleable.checked = true;
+    radioChecked2();
+  }
+
+}
+
+// ==================saleable=========================
+function radioChecked2() {
+  if (saleable.checked == true) {
+    document.getElementById("priceSale").style.display = "inline-block";
+    document.getElementById("NegotiableSale").style.display = "inline-block";
+    document.getElementById("NegotiableLBL").style.display = "inline-block";
+    document.getElementById("saleable").style.display = "inline-block";
+
+  }
+  else {
+    document.getElementById("priceSale").style.display = "none";
+    document.getElementById("NegotiableSale").style.display = "none";
+    document.getElementById("NegotiableLBL").style.display = "none";
+    document.getElementById("saleable").style.display = "inline-block";
+
+  }
+}
+
+// ==================sale====================
+function radioChecked3() {
+  if (sale.checked == true) {
+
+    document.getElementById("Negotiable").style.display = "inline-block";
+    document.getElementById("negoLbl").style.display = "inline-block";
+    document.getElementById("price").style.display = "inline-block";
+    document.getElementById("priceSale").style.display = "none";
+    document.getElementById("NegotiableSale").style.display = "none";
+    document.getElementById("NegotiableLBL").style.display = "none";
+    document.getElementById("saleable").style.display = "none";
+    document.getElementById("sealableLbl").style.display = "none";
+    document.getElementById("textarea").style.display = "none";
+  }
+  else {
+    document.getElementById("Negotiable").style.display = "none";
+    document.getElementById("negoLbl").style.display = "none";
+    document.getElementById("price").style.display = "none";
+
+  }
+}
+
+// ==================donation====================
+function radioChecked4() {
+  if (donation.checked == true) {
+    saleable.checked = false;
+    document.getElementById("textarea").style.display = "none";
+    document.getElementById("price").style.display = "none";
+    document.getElementById("Negotiable").style.display = "none";
+    document.getElementById("negoLbl").style.display = "none";
+
+    document.getElementById("priceSale").style.display = "none";
+    document.getElementById("NegotiableSale").style.display = "none";
+    document.getElementById("NegotiableLBL").style.display = "none";
+    document.getElementById("saleable").style.display = "none";
+    document.getElementById("sealableLbl").style.display = "none";
+
+  }
+}
+// =======================================================================================
+
+function hide() {
+  document.getElementById("saleable").style.display = "none";
+  document.getElementById("sealableLbl").style.display = "none";
+  document.getElementById("Negotiable").style.display = "none";
+  document.getElementById("negoLbl").style.display = "none";
+  document.getElementById("price").style.display = "none";
+  document.getElementById("priceSale").style.display = "none";
+  document.getElementById("NegotiableSale").style.display = "none";
+  document.getElementById("NegotiableLBL").style.display = "none";
+  document.getElementById('textarea').value = "";
+  // document.getElementById("description").value = "";
+}
+// ====================description====================
+function description() {
+
+}
 
 
-
-
-
+window.onload = hide;
 
 
 
@@ -62,7 +159,7 @@ inputfile.onchange = function () {
 // function myFunction() {
 //     document.getElementById("myDropdown").classList.toggle("show");
 //   }
-  
+
 //   function myFunction2() {
 //     document.getElementById("myDropdown2").classList.toggle("show");
 //   }
@@ -96,9 +193,9 @@ inputfile.onchange = function () {
 //       } else {
 //         div.style.display = "none";
 //         a[i].style.display = "none";
-        
-        
+
+
 //       }
-    
+
 //     }
 //   }

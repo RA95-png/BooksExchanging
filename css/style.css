@@ -30,7 +30,31 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+.link{
+	color:beige;
+	font-weight: 620;
+	width: 100%;
+	padding: 24px 20px 24px 20px;
+	height: 100%;
+	background-color: #252525;
+	font-size: 19px;
+	font-family: inherit;
+}
+.link:hover{
+	color: beige;
+	background-color: #e7ab3c;
+}
+.background-link{
+	background-color: #252525;
+}
 
+.required:after {
+    content:" *";
+	color: red;
+margin-top: 1%;
+}
+
+	
 html,
 body {
 	height: 100%;
@@ -482,8 +506,8 @@ ol {
 	font-size: 16px;
 	color: #ffffff;
 	position: absolute;
-	right: -3px;
-	top: -1px;
+	right: 1%;
+	top: 0px;
 	border: 1px solid #e7ab3c;
 	background: #e7ab3c;
 	padding: 12px 16px 12px;
@@ -1599,8 +1623,8 @@ ol {
 }
 
 .newslatter-item .subscribe-form input {
-	color: #b2b2b2;
-	background: #303030;
+	color: beige;
+	background: #3b3b3b;
 	width: 100%;
 	height: 46px;
 	font-size: 16px;
@@ -1799,7 +1823,7 @@ ol {
 	left: 58px;
 	top: 13px;
 	height: 1px;
-	width: 17px;
+	width: 25px;
 	background: #ebebeb;
 	content: "";
 }
@@ -1807,7 +1831,7 @@ ol {
 .filter-widget .filter-range-wrap .range-slider .price-input input {
 	font-size: 16px;
 	color: #252525;
-	max-width: 20%;
+	max-width: 30%;
 	text-align: center;
 	border: 1px solid #ebebeb;
 	border-radius: 2px;
@@ -3787,7 +3811,7 @@ ol {
 .register-form form .group-input label,
 .login-form form .group-input label {
 	display: block;
-	font-size: 18px;
+	font-size: 16px;
 	color: #252525;
 	margin-bottom: 8px;
 }
@@ -3945,7 +3969,7 @@ ol {
   
   #myInput {
 	box-sizing: border-box;
-	background-image: url('searchicon.png');
+	background-image: url('../img/searchicon.png');
 	background-position: 14px 12px;
 	background-repeat: no-repeat;
 	font-size: 16px;
@@ -3981,6 +4005,9 @@ ol {
   .dropdown a:hover {color: darkgoldenrod;}
   
   .show {display: block;}
+  #button{
+	margin-bottom:15px; color:beige; cursor: pointer;
+  }
 
 /* ------------------------------ Responsive Media Styles ---------------------------- */
 
@@ -4232,11 +4259,17 @@ ol {
 		display: none;
 	}
 	.slicknav_btn {
-		border-radius: 0;
+		border-radius: 2px;
 		background-color: #e7ab3c;
 		display: inline-block;
-		right: -16px;
+		right: -4px;
+		float: left; 
+		padding: 10px;
+		top: -7px;
 	}
+
+
+
 	.slicknav_nav .slicknav_row,
 	.slicknav_nav a {
 		padding: 8px 15px;
@@ -4404,4 +4437,8 @@ ol {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	
 }
+
+}
+
