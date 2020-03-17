@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #myInput {
    background-image: url("../img/searchicon.png"); 
     background-position: 10px 12px;
@@ -129,3 +130,93 @@
   top: 0;
 }
 
+=======
+#myInput {
+<<<<<<< HEAD
+    /* background-image: url('./img/searchicon.png'); */
+=======
+<<<<<<< HEAD
+    /* background-image: url('./img/searchicon.png'); */
+=======
+    background-image: url('/BooksExchanging/img/searchicon.png');
+>>>>>>> 2a6063bbd24656c3a136cb060aef24ecbc1f9325
+>>>>>>> 1d52d8e4ba2d81e75a15a2f5a5f8dd5678321f1a
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 3px;
+    margin-top: -30px;
+<<<<<<< HEAD
+   
+  
+=======
+<<<<<<< HEAD
+   
+  
+=======
+ 
+    /* margin-bottom: 12px; */
+
+>>>>>>> 2a6063bbd24656c3a136cb060aef24ecbc1f9325
+>>>>>>> 1d52d8e4ba2d81e75a15a2f5a5f8dd5678321f1a
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -6px;
+<<<<<<< HEAD
+    /* overflow: scroll;
+    height: 900%; */
+   
+=======
+<<<<<<< HEAD
+   
+   
+  
+>>>>>>> 1d52d8e4ba2d81e75a15a2f5a5f8dd5678321f1a
+    
+  }
+
+  
+<<<<<<< HEAD
+=======
+=======
+  }
+
+>>>>>>> 2a6063bbd24656c3a136cb060aef24ecbc1f9325
+>>>>>>> 1d52d8e4ba2d81e75a15a2f5a5f8dd5678321f1a
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+<<<<<<< HEAD
+ 
+    
+=======
+<<<<<<< HEAD
+ 
+    
+=======
+>>>>>>> 2a6063bbd24656c3a136cb060aef24ecbc1f9325
+>>>>>>> 1d52d8e4ba2d81e75a15a2f5a5f8dd5678321f1a
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+<<<<<<< HEAD
+  }
+ textarea{  display: none;}
+=======
+  }
+>>>>>>> 1d52d8e4ba2d81e75a15a2f5a5f8dd5678321f1a
+>>>>>>> fcd8f9815aea6a949b512772c1a8d6576a65c756
