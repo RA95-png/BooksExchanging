@@ -1,0 +1,141 @@
+#bg{
+background-image: url("./img/yellow.png");
+/* background-color: #dad8d6; */
+}
+
+li ul { display: none;
+ }
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+.depart-hover li {
+    background: #fff;
+  
+    
+}
+li:hover li { float: none; }
+
+ul ul , ul ul ul{
+  left: 100%;
+  top: 0;
+}  
+.col-lg-4 {
+margin-top: 20px;
+}
+.list {
+    left: 0;
+    /* overflow: auto; */
+}
+.nav-item .nav-depart .styleDepart{
+    width: 400px;
+    padding: 7px ;
+    background : #fff;
+    color:#4c4c4c;
+    border: 1px solid #ECEDEE;
+    margin: 0 ;
+    font-size: 16px;
+    font-family: "Muli", sans-serif;
+  
+}
+/* .bad{
+  padding-bottom:20px ;
+} */
+/* .nav-item .nav-depart .styleDepart . */
+#hh{
+  height:30px;
+  width: 555px;
+  padding: 1px ;
+  background : #fff;
+  color:#4c4c4c;
+  font-weight: 100px;
+  border: 1px solid #ECEDEE;
+  border-radius: 0;
+  margin: 0 ;
+  font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-size: 19px;
+    font: Arial;
+
+} 
+.date{
+  height: 34px;
+  margin: 10px 0  ;
+  clear: both;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    padding: 6px 12px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+     z-index: 1; 
+    box-sizing: border-box;
+    min-height: 34px;
+    box-shadow: none;
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 20px;
+    border-radius: 4px;
+  
+
+}
+.y{
+  background-color: #e7ab3c;
+}
+.classSelect{
+     margin:  10px 0;
+    
+}
+.selectize-input{
+   border: 1px solid #ebebeb;
+}
+.p{
+  padding-top: 40px;
+ 
+}
+.butn{
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: larger;
+ 
+}
+/* .styleFont{
+	font-size: 14px;
+	font-weight: 700;
+	padding: 12px 30px;
+	color: #ffffff;
+	background: #e7ab3c;
+
+} */
+
+.yy{
+  color: #e7ab3c;
+}
+.xx{
+  width: 100%;
+  height: 46px;
+  border: 2px solid #ebebeb;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.bor{
+  border: #e7ab3c 1px solid;
+} 
+ ::placeholder{
+  color: #495057;
+    }
+
+    /* img.resize {
+      max-width:50%;
+      max-height:50%;
+    } */

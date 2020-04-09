@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fashi Template">
+    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book | Add Book</title>
+    <!-- Css Styles -->
+    <!-- Google Font -->
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="css/liveSearch.css" type="text/css">
+
+</head>
+
+
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin --> <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        hello.colorlib@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        +65 11.188.888
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <select name="" id="" class="logout">
+                        <option value="1"><a href="./Portfolio.html">Name</a></option>
+                        <option value="2"><a href="./addBook.html">Add Book</a></option>
+                        <option value="3"><a href="./login.html" id="logout">Log out</a></option>
+                    </select>
+                    <!-- <a href="./login.html" class="login-panel" id="logout"><i class="fa fa-sign-out"
+                        style="font-size:20px; margin-right: 5px;"></i>Log out</a> -->
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
+                            data-title="English">English</option>
+                        <option value='yu' data-image="img/jordan (1).png" data-imagecss="flag yu"
+                            data-title="Bangladesh">Arabic</option>
+                        </select>
+                    </div>
+                    <div class="top-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"><i class="ti-linkedin"></i></a>
+                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="./img/test_logo2.png" alt="" style="width: 65%; margin-top: -40px;">
+                            </a>
+                        </div>
+                    </div>
+                    <!--|||||||||||||||||-->
+                    <div class="col-lg-7 col-md-7">
+                        <div class="advanced-search">
+                            <form action="#" class="input-group">
+                                
+                                <button type="button"><i class="ti-search"></i></button>
+                                <input type="text" placeholder="Search   |    What do you need?" id="buttonSearch">
+                                
+                            </form>
+                            
+                        </div>
+                        <button type="button " class="btn" id="advanced"><a href="./advanced.html" >Advanced Search</a></button>
+                    </div>
+                    <!--|||||||||||||||||-->
+                    
+                </div>
+            </div>
+        </div>
+        <!--||||||||||||||||||||||||||||||||||||||-->
+        <div class="nav-item">
+            <div class="container" >
+                <div class=" nav-depart">
+                </div>
+             
+               
+                <nav class="nav-menu mobile-menu" >
+                    <ul style="margin-bottom: 0;">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./books.html">Books</a></li>
+                        <li><a href="./addBook.html">Add Book</a></li>
+                        <li><a href="#footer-section">About Us</a></li>
+                       
+                    </ul>
+                    
+                </div>
+                
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+                
+               
+               
+            </div>
+        </div>
+        <!--||||||||||||||||||||||||||||||||||||||-->
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <div class="breacrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11">
+                    <div class="breadcrumb-text">
+                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                        <span>Add Book</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Form Section Begin -->
+
+    <!-- add book Section Begin -->
+    <div class="register-login-section spad">
+        <div class="container shadow">
+            <div class="row">
+                <div class="col-lg-6 col-sm-8 col-xs-8 offset-lg-3">
+                    <div class="register-form">
+                        <h3 style="margin:15px">Add Book</h3>
+                        <form action="#" style="margin-bottom:15px">
+                            <div class="group-input">
+                                <label class="required" >Book Name:</label>
+                                <input type="text" id="bookName" >
+                                   <p class="error" id="error1"></p> 
+                            </div>
+                            <!-- <div style="margin-bottom:30px;">*</div> -->
+
+                            <div class="group-input">
+                                <label class="required" >The Author:</label>
+                                <input type="text" id="author">
+                                <p class="error" id="error2"></p> 
+                            </div>
+
+                            <div class="group-input">
+                                <label class="required" >Version or Date of the book:</label>
+                                <input type="text" id="version">
+                                <p class="error" id="error3"></p> 
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="required" >Select The University that the book belongs to:</label>
+                                        <select data-live-search="true" title="Please select University" id="unviersity"
+                                            data-live-search-placeholder="Search University"
+                                            class="form-control selectpicker">
+                                            <option value="">Universities</option>
+                                            <option value="1">Al al-Bayt University</option>
+                                            <option value="2">The University of Jordan</option>
+                                            <option value="3">Yarmouk University</option>
+                                            <option value="4">The Hashemite University</option>
+                                            <option value="5"> Middle East University</option>
+                                            <option value="6"> Al-Isra University</option>
+                                            <option value="7"> Al-Balqa Applied University</option>
+                                            <option value="8"> Jordan University of Science and Technology</option>
+                                            <option value="9"> Al Hussein Bin Talal University</option>
+                                            <option value="10">Mutah</option>
+                                            <option value="11"> Tafila Technical University</option>
+                                            <option value="12"> German Jordanian University</option>
+                                            <option value="13">Al-Ahliyya Amman University</option>
+                                            <option value="14">Al-Zaytoonah University of Jordan</option>
+                                            <option value="15">Philadelphia University</option>
+                                            <option value="16">Princess Sumaya University for Technology</option>
+                                            <option value="17">University of Petra</option>
+                                            <option value="18">Applied Science Private University</option>
+                                            <option value="19">Jerash University</option>
+                                            <option value="20">Zarqa University</option>
+                                            <option value="21">Irbid National University</option>
+                                            <option value="22">Ajloun National Private University</option>
+                                            <option value="23">Amman Arab University</option>
+                                            <option value="24">American University of Madaba</option>
+                                            <option value="25">Jadara University </option>
+                                            <option value="26">Aqaba University of Technology</option>
+                                            <option value="27">Al Hussein Technical University</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="error" id="error4"></p> 
+                            <!-- ----------------------------------------------------------------------------------- -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="required" > Select The College that the book belongs to:</label>
+                                        <select data-live-search="true" title="Please select College" id="college"
+                                            data-live-search-placeholder="Search Category" 
+                                            class="form-control selectpicker">
+                                            <option value="" >Colleges</option>
+                                         
+<!-- <option value="1"> Medicine</option>
+<option value="2"> Engineering</option>
+<option value="3"> Pharmacy</option>
+<option value="4">dentistry</option>
+<option value="5"> IT </option>
+<option value="6">Veterinary Medicine</option>
+<option value="7">Nursing</option>
+<option value="8">Science</option>
+<option value="9">Science & Arts</option>
+<option value="10">Applied Medical Sciences</option>
+<option value="11">Architecture and Design</option>
+<option value="12">Arts & Languages</option>
+<option value="13">Sharia</option>
+<option value="14">Faculty of Economics </option>
+<option value="15"> Educational Sciences</option>
+<option value="16">Physical Education</option>
+<option value="17">Law</option>
+<option value="18">Agriculture</option>
+<option value="19">Tourism and Hotel Management</option>
+<option value="20">Mass Communication</option> -->
+
+
+
+
+                                        </select>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="error" id="error5"></p> 
+                            <!-- ----------------------------------------------------------------------------------- -->
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+
+                                        <!-- Department -->
+                                        <label class="required" >Select The Department that the book belongs to:</label>
+                                        <select data-live-search="true" title="Please Select Department " id="deparment"
+                                            data-live-search-placeholder="Search Department"
+                                            class="form-control selectpicker">
+
+                                            <!-- College of Science -->
+                                            <option value="">Department</option>
+                                       
+                                        </select>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="error" id="error6"></p> 
+                            <!-- -------------------------------------------------------------------------------------- -->
+                            
+                            <!-- Sale, Exchange and donation textFields -->
+                            <!-- ----------------------------------------------- -->
+                            <div class="container" style="width:100%">
+                                <div class="row ">
+
+                                    <div class="col-sm-12">
+                                        <input type="radio" id="donation" name="book"  onclick="radioChecked4() ">Donation
+                                    </div>
+                                    
+
+                                    <div class="col-sm-3">
+                                        <input type="radio" id="exchange" name="book" onclick="radioChecked1() ">Exchange
+                                    </div>
+
+                                    <div class="col-sm-9 textarea">
+                                        <textarea class="form-control" rows="3"
+                                            style="border-color: rgb(230, 228, 228); " placeholder="Add books names"
+                                            id="textarea">
+                                        </textarea>
+                                        <div class="col-sm-4">
+                                            <input type="checkbox" id="saleable" onclick="radioChecked2()">
+                                            <span id="sealableLbl">saleable</span>
+                                            <div>
+                                                <div class="col-sm-5 group-input" id="priceSale">
+                                                    <input type="text" placeholder="  Price" style="width: auto;" id="price1">
+                                                </div>
+
+                                                <div>
+                                                    <input type="checkbox" id="NegotiableSale"><span id="NegotiableLBL"> Negotiable</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3" style="margin-bottom: -5px;">
+                                        <input type="radio" id="sale" name="book" onclick="radioChecked3()"><span
+                                            id="saleTXT">Sale</span>
+                                    </div>
+                                    <div class="col-sm-5 group-input" id="price">
+                                        <input type="text" placeholder="  Price" id="price2">
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <input type="checkbox" id="Negotiable"> <span id="negoLbl">Negotiable</span>
+                                    </div>
+
+
+                                </div>
+                                <p class="error" id="error7"></p> 
+
+                                <!-- ----------------------------------------------- -->
+                                <!-- Add a book image -->
+                                <label style="font-size: large; padding: 5px;"> Choose an image for the book
+                                </label>
+                                <input id="fileInput" type="file" class="fileInput" />
+                                <img src="./img/addBook.png" class="imgBook" id="imgBook" alt="Avatar" width="35%">
+
+                            </div>
+                            
+                            <button type="button" class=" primary-btn btn btn-block"  id="buttonAdd"  >Add</button>
+                            <button type="button" class=" primary-btn btn btn-block"  id="buttonEdit"  >Edit</button>
+                        </form>
+<!-- onclick="add()" -->
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-4 col-xs-4" style="margin-top:70px;color:red">
+                    <!-- <div style="margin-bottom:30px;">*</div>
+                    <div style="margin-bottom:30px">*</div>
+                    <div style="margin-bottom:30px">*</div>
+                    <div style="margin-bottom:30px">*</div>
+                    <div style="margin-bottom:30px">*</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add book Form Section End -->
+
+
+    <!-- Footer Section Begin -->
+  <!-- Footer Section Begin -->
+  <footer class="footer-section" id="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="footer-logo">
+                <a href="#"><img src="img/44.png" style="width:100px; margin-right: 70px;" alt=""></a>
+            </div>
+
+              
+          
+            <div class="col-lg-3">
+
+                <div class="footer-left">
+
+                    <ul>
+                        <li>Address: 60-49 Road 11378 New York</li>
+                        <li>Phone: +65 11.188.888</li>
+                        <li>Email: hello.colorlib@gmail.com</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <div class="footer-widget">
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-widget" >
+                    <h5>My Account</h5>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div style="margin-left:-80px;">
+            <div id="footer-social1" >
+                <a href="#"><i class="fa fa-facebook"></i></a></div>
+            <div id="footer-social1" >
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="./javascript/addBook.js"></script> 
+    <!-- <script src="./js/addBook.js"></script> -->
+    <script type="text/javascript" src="./validator/node_modules/validator/validator.min.js"></script>
+
+    <script src="js/liveSearch.js"></script>
+    <script src="./javascript/buttonSearch.js"></script>
+
+</body>
+
+
+</html>

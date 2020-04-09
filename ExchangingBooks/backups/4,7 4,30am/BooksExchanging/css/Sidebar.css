@@ -1,0 +1,120 @@
+body {
+  font-family: inherit;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 200px;
+  top: 240px;
+  float: right;
+   left: 60px;
+  background-color: #252525;
+
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  margin-top: 22px;
+}
+
+
+.sidepanel a {
+  padding: 8px 8px 8px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  color: beige;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #e7ab3c;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  
+  cursor: pointer;
+  background-color: inherit;
+  color: beige;
+  border: none;
+  text-align: center;
+font-size: 17px;
+  
+}
+
+.openbtn:hover {
+  color:#e7ab3c;
+}
+
+#delete{margin-left: 30px;}
+
+#cancel{float: right;
+   margin-right: 30px;}
+
+   #yes{margin-left: 105px;}
+
+#no
+ {float: right;
+   margin-right: 105px;}
+
+   #sure{
+     visibility: hidden;
+     padding: 8px 0;
+   }
+
+   #delete2{
+    padding: 15px 0;
+    top: 0;
+   }
+   #register{
+     margin: 10px;
+   }
+  @media (min-width: 992px) {
+    .sidepanel{right:0;
+   
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sidepanel{right:0;
+     opacity: 1;
+    /* top: 130px; */
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .sidepanel{right: 0;
+    /* background-color: inherit; */
+ left:1px;
+  color: beige;
+  margin-top: 50px;
+  height: 150px;
+  }
+
+  .openbtn {
+  
+    cursor: pointer;
+    background-color: inherit;
+        color:#e7ab3c;
+
+    border: none;
+    text-align: center;
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: 800;
+    
+  }
+  
+  .openbtn:hover {
+    font-size: 19px;
+  
+}
+}

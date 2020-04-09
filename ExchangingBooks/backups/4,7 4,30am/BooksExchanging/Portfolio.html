@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Books</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Css Styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+  <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+  <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/Sidebar.css" type="text/css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+  
+    
+  </style>
+</head>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        hello.colorlib@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        +65 11.188.888
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <select name="" id="" class="logout">
+                        <option value="1"><a href="./Portfolio.html">Name</a></option>
+                        <option value="2"><a href="./addBook.html">Add Book</a></option>
+                        <option value="3"><a href="./login.html" id="logout">Log out</a></option>
+                    </select>
+                    <!-- <a href="./login.html" class="login-panel" id="logout"><i class="fa fa-sign-out"
+                        style="font-size:20px; margin-right: 5px;"></i>Log out</a> -->
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
+                            data-title="English">English</option>
+                        <option value='yu' data-image="img/jordan (1).png" data-imagecss="flag yu"
+                            data-title="Bangladesh">Arabic</option>
+                        </select>
+                    </div>
+                    <div class="top-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"><i class="ti-linkedin"></i></a>
+                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="./img/test_logo2.png" alt="" style="width: 65%; margin-top: -40px;">
+                            </a>
+                        </div>
+                    </div>
+                    <!--|||||||||||||||||-->
+                    <div class="col-lg-7 col-md-7">
+                        <div class="advanced-search">
+                            <form action="#" class="input-group">
+                                
+                                <button type="button"><i class="ti-search"></i></button>
+                                <input type="text" placeholder="Search   |    What do you need?" id="buttonSearch">
+                                
+                            </form>
+                            
+                        </div>
+                        <button type="button " class="btn" id="advanced"><a href="./advanced.html" >Advanced Search</a></button>
+                    </div>
+                    <!--|||||||||||||||||-->
+                    
+                </div>
+            </div>
+        </div>
+        <!--||||||||||||||||||||||||||||||||||||||-->
+        <div class="nav-item">
+            <div class="container" >
+                <div class=" nav-depart">
+                </div>
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="./editInformation.html">Edit Info</a>
+                    <a href="./addBook.html">Add Book</a>
+                    <a href="login.html" id="logout"><i class="fa fa-sign-out"
+                            ></i>Log out</a>
+                  
+                </div>
+                <button class="openbtn " onclick="openNav()"> &#9776;</button>
+                <nav class="nav-menu mobile-menu" >
+                    <ul style="margin-bottom: 0;">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./books.html">Books</a></li>
+                        <li><a href="#footer-section">About Us</a></li>
+                       
+                    </ul>
+                    
+                </div>
+                
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+                
+               
+               
+            </div>
+        </div>
+        <!--||||||||||||||||||||||||||||||||||||||-->
+    </header>
+
+    <!-- Header End -->
+<div class="jumbotron" style=" background-image: url('./img/yellow.png');">
+  <div class="container text-center">
+    <h2>Name:</h2>  
+  </div>
+    <div class="container text-left">
+    <h3>Email:</h3s>
+    <h3>Mobile:</h3>    
+    <h4>Social Media:</h4>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">  
+
+  <h3><u>My Books</u></h3><br>
+  </div>
+  <section class="blog-section spad" id="mybooks">
+    <div class="container" >
+
+            <div class="col-lg-12 order-2 order-lg-2">
+                <div class="row" id="mybooks">
+                     <div class="col-lg-4 col-sm-4"  >
+                        <div class="blog-item">
+                            <div class="bi-pic">
+                                <img src="./img/books.jpg" alt="">
+                            </div>
+                            <div class="bi-text">
+                                <h4>Book Name</h4>
+                                <a href="./addBook.html">
+                                    <h5 style="color:#e7ab3c;">Edit Book Information</h5>
+                                </a>
+                                <b style="cursor: pointer;">Delete</b>
+                            </div>
+                        </div>
+                    </div> 
+                     <div class="col-lg-4 col-sm-4">
+                        <div class="blog-item">
+                            <div class="bi-pic">
+                                <img src="./img/books.jpg" alt="">
+                            </div>
+                            <div class="bi-text">
+                                <h4>Book Name</h4>
+                                <a href="./addBook.html">
+                                    <h5 style="color:#e7ab3c;">Edit Book Information</h5>
+                                </a>
+                                <b style="cursor: pointer;">Delete</b>
+                            </div>
+                        </div>
+                    </div> 
+                     <div class="col-lg-4 col-sm-4">
+                        <div class="blog-item">
+                            <div class="bi-pic">
+                                <img src="./img/books.jpg" alt="">
+                            </div>
+                            <div class="bi-text">
+                                <h4>Book Name</h4>
+                                <a href="./addBook.html">
+                                    <h5 style="color:#e7ab3c;">Edit Book Information</h5>
+                                </a>
+                                <b style="cursor: pointer;">Delete</b>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="blog-item">
+                            <div class="bi-pic">
+                                <img src="./img/books.jpg" alt="">
+                            </div>
+                            <div class="bi-text">
+                                <h4>Book Name</h4>
+                                <a href="./addBook.html">
+                                    <h5 style="color:#e7ab3c;">Edit Book Information</h5>
+                                </a>
+                                <b style="cursor: pointer;">Delete</b>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section><br>
+
+
+ <!-- Footer Section Begin -->
+ <footer class="footer-section" id="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="footer-logo">
+                <a href="#"><img src="img/44.png" style="width:100px; margin-right: 70px;" alt=""></a>
+            </div>
+
+
+
+            <div class="col-lg-3">
+
+                <div class="footer-left">
+
+                    <ul>
+                        <li>Address: 60-49 Road 11378 New York</li>
+                        <li>Phone: +65 11.188.888</li>
+                        <li>Email: hello.colorlib@gmail.com</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <div class="footer-widget">
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-widget">
+                    <h5>My Account</h5>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div style="margin-left:-80px;">
+                <div id="footer-social1">
+                    <a href="#"><i class="fa fa-facebook"></i></a></div>
+                <div id="footer-social1">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/jquery.zoom.min.js"></script>
+<script src="js/jquery.dd.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script src="./javascript/mybooks.js"></script>
+<script src="./javascript/buttonSearch.js"></script>
+<script src="./javascript/sidebar.js"></script>
+<script src="./javascript/sidebar2.js"></script>
+</body>
+</html>
